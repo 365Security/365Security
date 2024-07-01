@@ -16,7 +16,7 @@ Requirements:
 - If for some reason that you already have A-PIM groups, please change the Group names in the script accordingly.
 
 Instructions:
-- Run the script in an ISE to better capture any errors
+- Download the script as a .ps1 and run.
 - When prompted, sign in with an M365 Global Admin account. DO NOT TICK "Approve for Entire Organsation"
 - Even if not successful, there is some default language in the script that will report success.
 - After the script has run - Check your Entra groups and locate the "A-PIM..." groups
