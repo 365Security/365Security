@@ -3,7 +3,20 @@ This repository has been set up as a temporary sharing environment for basic scr
 
 **PIMRoles.ps1**
 
-This script will set up the Entra Roles required for the requested users) to assist in your M365 uplift. 
+This script will set up the Entra Roles required for the requested users to assist in your M365 Security uplift:
+
+Role                            Group
+Attribute Assignment Reader     A-PIM-AttributeAssignmentReaders
+Attribute Definition Reader     A-PIM-AttributeDefinitionReader
+Attribute Log Reader            A-PIM-AttributeLogReaders
+Directory Readers               A-PIM-DirectoryReaders
+Global Reader                   A-PIM-GlobalReaders
+Message Center Privacy Reader   A-PIM-MessageCenterPrivacyReader
+Message Center Reader           A-PIM-MessageCenterReader
+Reports Reader                  A-PIM-ReportsReader
+Security Reader                 A-PIM-SecurityReader
+
+
   - Script workflow:
     - Import the Microsoft Graph Module
     - Ask for authentication
@@ -21,3 +34,4 @@ Instructions:
 - Even if not successful, there is some default language in the script that will report success.
 - After the script has run - Check your Entra groups and locate the "A-PIM..." groups
 - Create the requested user accounts and add these accounts to all "A-PIM..." groups 
+
