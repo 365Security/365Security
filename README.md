@@ -5,16 +5,17 @@ This repository has been set up as a temporary sharing environment for basic scr
 
 This script will set up the Entra Roles required for the requested users to assist in your M365 Security uplift:
 
-Role                            Group
-Attribute Assignment Reader     A-PIM-AttributeAssignmentReaders
-Attribute Definition Reader     A-PIM-AttributeDefinitionReader
-Attribute Log Reader            A-PIM-AttributeLogReaders
-Directory Readers               A-PIM-DirectoryReaders
-Global Reader                   A-PIM-GlobalReaders
-Message Center Privacy Reader   A-PIM-MessageCenterPrivacyReader
-Message Center Reader           A-PIM-MessageCenterReader
-Reports Reader                  A-PIM-ReportsReader
-Security Reader                 A-PIM-SecurityReader
+Role | Group
+--- | ---
+| Attribute Assignment Reader | A-PIM-AttributeAssignmentReaders
+| Attribute Definition Reader | A-PIM-AttributeDefinitionReader
+| Attribute Log Reader | A-PIM-AttributeLogReaders
+| Directory Readers | A-PIM-DirectoryReaders
+| Global Reader | A-PIM-GlobalReaders
+| Message Center Privacy Reader | A-PIM-MessageCenterPrivacyReader
+| Message Center Reader | A-PIM-MessageCenterReader
+Reports Reader | A-PIM-ReportsReader
+| Security Reader | A-PIM-SecurityReader
 
 
   - Script workflow:
