@@ -1,7 +1,7 @@
 Hi Team!
 This repository has been set up as a temporary sharing environment for basic scripts. 
 
-**PIMRoles.ps1**
+[**PIMRoles.ps1**](https://github.com/365Security/365Security/blob/main/PIMRoles.ps1)
 
 This script will set up the Entra Roles required for the requested users to assist in your M365 Security uplift:
 
