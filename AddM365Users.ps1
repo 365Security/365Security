@@ -49,6 +49,11 @@ $users = @(
         DisplayName = "Bob Smith"
         UserPrincipalName = "bob.smith@yourdomain.com"
         Groups = $groups
+    },
+    @{
+        DisplayName = "Alice Johnson"
+        UserPrincipalName = "alice.johnson@yourdomain.com"
+        Groups = $groups
     }
 )
 
