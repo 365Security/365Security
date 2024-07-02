@@ -40,7 +40,7 @@ Reports Reader | A-PIM-ReportsReader
  - When prompted during the running of the script - sign in with an M365 Global Admin account and consent, DO **NOT** TICK "Approve for Entire Organsation"
 
 **Running AddM365Users.ps1**
-- Edit the AddM365Users.ps1 script to reflect the users requested, these users must **not** be guest users.
+- **Edit** the AddM365Users.ps1 script to reflect the users requested, these users must **not** be guest users.
 - Run AddM365users.ps1 in Microsoft Terminal (or at least a PowerShell 5/5.1 session)
  - Microsoft PowerShell ISE is not supported
 - When prompted during the running of the script - sign in with an M365 Global Admin account and consent, DO **NOT** TICK "Approve for Entire Organsation"
