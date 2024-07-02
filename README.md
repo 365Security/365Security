@@ -9,7 +9,7 @@ These scripts will set up the Entra Roles required for the requested users to ac
 [**AddM365Users.ps1**](https://github.com/365Security/365Security/blob/main/AddM365Users.ps1)
 
 DISCLAIMER:
-Group names are for consistency.
+Group names are for consistency, the reference to "PIM" is Priveliged Identity Management but don't worry if this is not enabled in your environment.
 
 If the scripts just don't work for you, please add the groups manually and assign the below roles:
 
