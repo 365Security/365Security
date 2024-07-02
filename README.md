@@ -5,7 +5,8 @@ There is no data about any organisations that are associated with the purpose of
 
 These scripts will set up the Entra Roles required for the requested users to access your tenants and assist in your M365 Security uplift:
 [**PIMRoles.ps1**](https://github.com/365Security/365Security/blob/main/PIMRoles.ps1)
-[AddM365Users.ps1](https://github.com/365Security/365Security/blob/main/AddM365Users.ps1)
+
+[**AddM365Users.ps1**](https://github.com/365Security/365Security/blob/main/AddM365Users.ps1)
 
 DISCLAIMER:
 Group names are for consistency.
