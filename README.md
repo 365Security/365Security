@@ -8,6 +8,12 @@ These scripts will set up the Entra Roles required for the requested users to ac
 
 [**AddM365Users.ps1**](https://github.com/365Security/365Security/blob/main/AddM365Users.ps1)
 
+**TECHNICAL REQUIREMENTS**
+
+- This script was built and tested in PowerShell 7 Core, but will work in Powershell 5.0/5.1.
+- If the Microsoft Graph module is not installed, run **Install-Module Microsoft.Graph**
+  - Note that your EDR software may take a while to scan the imported modules at runtime.
+
 DISCLAIMER:
 Group names are for consistency, the reference to "PIM" is Priveliged Identity Management but don't worry if this is not enabled in your environment.
 
@@ -42,25 +48,32 @@ Reports Reader | A-PIM-ReportsReader
 **POST-RUN VERIFICATION**
 - After the scripts have run - do a manual review of your M365 Entra groups and locate the "A-PIM..." groups, check that the users have been added to these groups correctly.
 
+  
+
 PIMRoles.ps1 script workflow:
+
     - Import the Microsoft Graph Module
+    
     - Ask for authentication
+    
     - Create Groups that have the Entra role assignment ability
+    
     - Assign the required read-only roles to the groups just created.
+    
     - Report on successes and failures
 
 AddM365Users.ps1 script workflow:
+
     - Import the Microsoft Graph Module
+    
     - Ask for authentication
+    
     - Create users with random passwords
+    
     - Assign to groups
+    
     - Report on successes and failures
 
-Requirements:
-- This script was built and tested in PowerShell 7 Core, but will work in Powershell 5.0/5.1.
-- If the Microsoft Graph module is not installed, run **Install-Module Microsoft.Graph**
-  - Note that your EDR software may take a while to scan the imported modules at runtime.
-- If for some reason that you already have A-PIM groups, please change the Group names in the script accordingly.
 
 
 
