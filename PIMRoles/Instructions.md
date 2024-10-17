@@ -1,7 +1,3 @@
-[**PIMRoles.ps1**](https://github.com/365Security/365Security/blob/main/PIMRoles.ps1)
-
-[**AddM365Users.ps1**](https://github.com/365Security/365Security/blob/main/AddM365Users.ps1)
-
 **TECHNICAL REQUIREMENTS**
 
 - This script was built and tested in PowerShell 7 Core, but will work in Powershell 5.0/5.1.
