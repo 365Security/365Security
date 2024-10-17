@@ -5,7 +5,7 @@ There is no data about any organisations that are associated with the purpose of
 
 **DEFENDER GPOs**
 This GPO will provide the minimum required GPO settings for Defender to run on workstations and servers within your environment. This will be crucial in ensuring that you have an EDR backup in place during the transition to the new EDR platform.
-[**DefenderGPOBackup**](https://github.com/365Security/365Security/blob/main/DefenderGPOBackup.zip)
+[**DefenderGPOBackup.zip**](https://github.com/365Security/365Security/raw/refs/heads/main/DefenderGPOBackup.zip)
 
 
 **PIM ROLES**
