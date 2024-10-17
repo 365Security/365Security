@@ -13,7 +13,7 @@ This GPO will provide the minimum required GPO settings for Defender to run on w
 
 These scripts will set up the Entra Roles required for the requested users to access your tenants and assist in your M365 Security uplift:
 
-
+[PIMRoles](https://github.com/365Security/365Security/tree/main/PIMRoles)
 
 
 
