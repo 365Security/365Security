@@ -26,8 +26,8 @@ Reports Reader | A-PIM-ReportsReader
 | Security Reader | A-PIM-SecurityReader
 
 **INSTRUCTIONS:**
-https://github.com/365Security/365Security/raw/refs/heads/main/PIMRoles.ps1
-https://github.com/365Security/365Security/raw/refs/heads/main/AddM365Users.ps1
+[**PIMRoles.ps1**](https://github.com/365Security/365Security/raw/refs/heads/main/PIMRoles.ps1)
+[**AddM365Users.ps1**](https://github.com/365Security/365Security/raw/refs/heads/main/AddM365Users.ps1)
 - Download each script as a .ps1 file
 
 **Running PIMRoles.ps1**
