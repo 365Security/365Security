@@ -1,13 +1,13 @@
 **TECHNICAL REQUIREMENTS**
 
-- This script was built and tested in PowerShell 7 Core, but will work in Powershell 5.0/5.1.
+- These scripts were built and tested in PowerShell 7 Core, but will work in Powershell 5.0/5.1.
 - If the Microsoft Graph module is not installed, run **Install-Module Microsoft.Graph**
   - Note that your EDR software may take a while to scan the imported modules at runtime.
 
 DISCLAIMER:
 Group names are for consistency, the reference to "PIM" is Priveliged Identity Management but don't worry if this is not enabled in your environment.
 
-If the scripts just don't work for you, please add the groups manually and assign the below roles:
+If the scripts just don't work for you, please add the groups manually and assign the below roles to the group.
 
 Role | Group
 --- | ---
