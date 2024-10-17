@@ -29,19 +29,28 @@ Reports Reader | A-PIM-ReportsReader
 
 [**AddM365Users.ps1**](https://github.com/365Security/365Security/raw/refs/heads/main/PIMRoles/AddM365Users.ps1)
 
+ _____________________________________________
+
 **Running PIMRoles.ps1**
+
 This script will create the above Roles and Groups in your environment.
 - Run PIMRoles.ps1 in Microsoft Terminal (or at least a PowerShell 5/5.1 session)
   - Microsoft PowerShell ISE is not supported
  - When prompted during the running of the script - sign in with an M365 Global Admin account and consent, DO **NOT** TICK "Approve for Entire Organsation"
 
+ _____________________________________________
+ 
 **Running AddM365Users.ps1**
-This script will add the users that you specify to the groups requested above.
+
+This script will add the users that you specify to the groups created in the script above.
+
 **IMPORTANT - You need to edit** the AddM365Users.ps1 script to reflect the users requested, these users must **not** be guest users.
+
 - Run AddM365users.ps1 in Microsoft Terminal (or at least a PowerShell 5/5.1 session)
  - Microsoft PowerShell ISE is not supported
 - When prompted during the running of the script - sign in with an M365 Global Admin account and consent, DO **NOT** TICK "Approve for Entire Organsation"
 
+ _____________________________________________
 **POST-RUN VERIFICATION**
 - After the scripts have run - do a manual review of your M365 Entra groups and locate the "A-PIM..." groups, check that the users have been added to these groups correctly.
 
