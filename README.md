@@ -1,5 +1,5 @@
 Hi Team!
-This repository has been set up as a temporary sharing environment for basic scripts.
+This repository has been set up as a temporary sharing environment for basic scripts and workflows for Microsoft 365.
 
 There is no data about any organisations that are associated with the purpose of these scripts, so please feel free to use in other projects :)
 
